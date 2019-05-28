@@ -1,0 +1,14 @@
+{
+  "hostname": "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
+  "password": "j0b94mkmhk@kqn20",
+  "https_url": "https://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
+  "port": 50000,
+  "ssldsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=btw77530;PWD=j0b94mkmhk@kqn20;Security=SSL;",
+  "host": "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
+  "jdbcurl": "jdbc:db2://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB",
+  "uri": "db2://btw77530:j0b94mkmhk%40kqn20@dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB",
+  "db": "BLUDB",
+  "dsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=btw77530;PWD=j0b94mkmhk@kqn20;",
+  "username": "btw77530",
+  "ssljdbcurl": "jdbc:db2://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;"
+}
