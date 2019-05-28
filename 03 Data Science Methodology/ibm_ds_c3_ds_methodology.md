@@ -56,7 +56,7 @@ The Data Science Methodology aims to answer 10 following questions:
 Data Science Methodology Flowchart: 
 * The data science methodology discussed in this course has been outlined by John Rollins, a seasoned and senior data scientist currently practising at IBM
 
-![c1_ds_methodology_flowchart](../images/c1_ds_methodology_flowchart.png)
+![c1_ds_methodology_flowchart](images/c1_ds_methodology_flowchart.png)
 
 
 * Properties:
