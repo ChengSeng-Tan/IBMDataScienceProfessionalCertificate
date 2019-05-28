@@ -1,7 +1,7 @@
 # COURSE 3: DATA SCIENCE METHODOLOGY
 
 
-![c1_what_is_methodology](../images/c1_what_is_methodology.png)
+![c1_what_is_methodology](images/c1_what_is_methodology.png)
 
 > Reference (John Collins, IBM):
 https://www.ibmbigdatahub.com/blog/why-we-need-methodology-data-science 
@@ -123,7 +123,7 @@ Data Science Methodology Flowchart:
 Look again at the flowchart:
 
 
-![c1_ds_methodology_flowchart](../images/c1_ds_methodology_flowchart.png)
+![c1_ds_methodology_flowchart](images/c1_ds_methodology_flowchart.png)
 
 
 * Properties:
