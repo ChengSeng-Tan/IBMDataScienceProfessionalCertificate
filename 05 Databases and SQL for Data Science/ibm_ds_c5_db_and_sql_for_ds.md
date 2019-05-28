@@ -524,7 +524,7 @@ sns.regplot(x='engine-size', y='prices', data=df)
 plt.ylim(0,)
 ```
 
-![c6_w3_correlation_positive](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w3_correlation_positive.png)
+![c6_w3_correlation_positive](images/c6_w3_correlation_positive.png)
 
 
 ### Correlation - Negative linear relationship
@@ -534,7 +534,7 @@ sns.regplot(x='highway-mpg', y='prices', data=df)
 plt.ylim(0,)
 ```
 
-![c6_w3_correlation_negative](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w3_correlation_negative.png)
+![c6_w3_correlation_negative](images/c6_w3_correlation_negative.png)
 
 
 ### Weak Correlation
@@ -544,7 +544,7 @@ sns.regplot(x='peak-rmp', y='prices', data=df)
 plt.ylim(0,)
 ```
 
-![c6_w3_correlation_weak](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w3_correlation_weak.png)
+![c6_w3_correlation_weak](images/c6_w3_correlation_weak.png)
 
 
 ## 3.3. Pearson Correlation
@@ -563,7 +563,7 @@ plt.ylim(0,)
 	* P-value < 0.001
 
 
-![c6_w3_correlation_pearson](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w3_correlation_pearson.png)
+![c6_w3_correlation_pearson](images/c6_w3_correlation_pearson.png)
 
 
 Calculate the Pearson correlation between `'horsepower'` and `'price'`:
@@ -576,7 +576,7 @@ pearson_coef, p_value = stats.pearsonr(df['horsepower'], df['price'])
 Taking all variables into account, we can now create a heatmap that indicates the correlation between each of the variables with one another
 
 
-![c6_w3_correlation_pearson_heatmap](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w3_correlation_pearson_heatmap.png)
+![c6_w3_correlation_pearson_heatmap](images/c6_w3_correlation_pearson_heatmap.png)
 
 * The color scheme indicates the Pearson Correlation coefficient, indicating the strength of the correlation between two variables
 * We can see a diagonal line with a dark red color indicating that all the values on this diagonal are highly correlated
@@ -588,7 +588,7 @@ Taking all variables into account, we can now create a heatmap that indicates th
 * Statisticcal comparison of groups
 * Example: average price of different vehicle makes. The question we may ask is how different categories the make feature as a categorical variable has impact on the price?
 
-![c6_w3_anova](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w3_anova.png)
+![c6_w3_anova](images/c6_w3_anova.png)
 
 * Why perform ANOVA?
 	* Finding correlation between different groups of a categorical variable
@@ -596,9 +596,9 @@ Taking all variables into account, we can now create a heatmap that indicates th
 	* `F-test` score: variation between sample group means divided by variation within sample group
 	* Small/large F implies poor/strong correlation between variable categories and target variable
 
-![c6_w3_f_test_small](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w3_f_test_small.png)
+![c6_w3_f_test_small](images/c6_w3_f_test_small.png)
 
-![c6_w3_f_test_large](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w3_f_test_large.png)
+![c6_w3_f_test_large](images/c6_w3_f_test_large.png)
 
 
 Example: ANOVA between `honda` and `subaru`
@@ -628,7 +628,7 @@ as the F-test score is less than one, and p-value is larger than 0.05
 
 Example:
 
-![c6_w4_model_development](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_model_development.png)
+![c6_w4_model_development](images/c6_w4_model_development.png)
 
 ## 4.2. Linear Regression and Multiple Linear Regression
 
@@ -711,7 +711,7 @@ sns.regplot(x="highway-mpg", y="price", data=df)
 plt.ylim(0,)
 ``` 
 
-![c6_w4_regresison_plot_1](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_regresison_plot_1.png)
+![c6_w4_regresison_plot_1](images/c6_w4_regresison_plot_1.png)
 
 ### Residual plot:
 * Represents the error between the actual value
@@ -720,16 +720,16 @@ plt.ylim(0,)
 Look at the **spread of the residual**:
 
 Example 1: 
-![c6_w4_residual_plot_2](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_residual_plot_2.png)
+![c6_w4_residual_plot_2](images/c6_w4_residual_plot_2.png)
 * Randomly spread out around 
 
 Example 2:
-![c6_w4_residual_plot_3](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_residual_plot_3.png)
+![c6_w4_residual_plot_3](images/c6_w4_residual_plot_3.png)
 * Not randomly spread out around the x-axis
 * Non-linear model may be more appropriate
 
 Example 3:
-![c6_w4_residual_plot_4](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_residual_plot_4.png)
+![c6_w4_residual_plot_4](images/c6_w4_residual_plot_4.png)
 * Not randomly spread out around the x-axis
 * Variance appears to change with x-axis
 
@@ -745,13 +745,13 @@ sns.residplot(df['highway-mpg'], df['price'])
 * Counts the predicted value versus the actual value
 * These plots are extremely useful for visualizing models with more than one independent variable or feature. 
 
-![c6_w4_distribution_plot_1](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_distribution_plot_1.png)
+![c6_w4_distribution_plot_1](images/c6_w4_distribution_plot_1.png)
 
 Compare the distribution plots:
 * The fitted values that result from the model
 * The actual values
 
-![c6_w4_distribution_plot_2](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_distribution_plot_2.png)
+![c6_w4_distribution_plot_2](images/c6_w4_distribution_plot_2.png)
 
 
 ```python
@@ -860,7 +860,7 @@ from sklearn.metrics import mean_squared_error
 mean_squared_error(df['price'], Y_predict_simple_fit)
 ```
 
-![c6_w4_mse](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_mse.png)
+![c6_w4_mse](images/c6_w4_mse.png)
 
 ### R-Squared (`R^2`)
 
@@ -876,10 +876,10 @@ from sklearn.metrics import mean_squared_error
 mean_squared_error(df['price'], Y_predict_simple_fit)
 ```
 Example: `ybar = 6`
-![c6_w4_rsquared](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_rsquared.png)
+![c6_w4_rsquared](images/c6_w4_rsquared.png)
 
 Example:
-![c6_w4_rsquared_2](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w4_rsquared_2.png)
+![c6_w4_rsquared_2](images/c6_w4_rsquared_2.png)
 
 * Blue line represents the regression line
 * Blue squares represent the MSE of the regression line
@@ -1005,12 +1005,12 @@ yhat = cross_val_predict(lr2e, x_data, y_data, cv=3)
 
 In the following figure: (a) Underfitting, (b) Fit, (c) Overfitting
 
-![c6_w5_underfit_overfit](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_underfit_overfit.png)
+![c6_w5_underfit_overfit](images/c6_w5_underfit_overfit.png)
 
 
 Plot of the mean square error for the training and testing set of different order polynomials
 
-![c6_w5_poly_order](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_poly_order.png)
+![c6_w5_poly_order](images/c6_w5_poly_order.png)
 
 * x-axis: represents the order of the polynomial
 * y-axis: the mean square error
@@ -1077,15 +1077,15 @@ Example:
 * For `alpha = 1`, we see the first signs of underfitting. The estimated function does not have enough flexibility
 * For `alpha = 10`, we see extreme underfitting
 
-![c6_w5_alpha_0](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_alpha_0.png)
+![c6_w5_alpha_0](images/c6_w5_alpha_0.png)
 
-![c6_w5_alpha_0p001](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_alpha_0p001.png)
+![c6_w5_alpha_0p001](images/c6_w5_alpha_0p001.png)
 
-![c6_w5_alpha_0p01](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_alpha_0p01.png)
+![c6_w5_alpha_0p01](images/c6_w5_alpha_0p01.png)
 
-![c6_w5_alpha_1](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_alpha_1.png)
+![c6_w5_alpha_1](images/c6_w5_alpha_1.png)
 
-![c6_w5_alpha_10](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_alpha_10.png)
+![c6_w5_alpha_10](images/c6_w5_alpha_10.png)
 
 
 ### Ridge Regression with `sklearn`
@@ -1110,7 +1110,7 @@ Note: Instread of `R-squared`, we can also use other metric like MSE
 
 Example: Plot: `R-Squared` vs. `alpha`
 
-![c6_w5_R2_vs_alpha](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_R2_vs_alpha.png)
+![c6_w5_R2_vs_alpha](images/c6_w5_R2_vs_alpha.png)
 
 * We use several features from our used car data set and a second order polynomial function
 * The training data is in red and validation data is in blue
@@ -1136,7 +1136,7 @@ Example: Plot: `R-Squared` vs. `alpha`
 	* It then calculates the `MSE` or `R-squared` for various hyperparameter values, allowing you to choose the best values
 	* Finally we select the hyperparameter that minimizes the error
 
-![c6_w5_grid_search](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_grid_search.png)
+![c6_w5_grid_search](images/c6_w5_grid_search.png)
 
 **Select hyperparameters**
 * Split the dataset into 3 parts: training set, validation set, and test set
@@ -1145,7 +1145,7 @@ Example: Plot: `R-Squared` vs. `alpha`
 	* Select the hyperparameter that minimizes the mean squared error or maximizes the R-squared on the *validation set*
 	* Finally test the model performance using the *test data*
 
-![c6_w5_grid_search_hyperparameter](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c6_w5_grid_search_hyperparameter.png)
+![c6_w5_grid_search_hyperparameter](images/c6_w5_grid_search_hyperparameter.png)
 
 ```python
 from sklearn.linear_model import Ridge
