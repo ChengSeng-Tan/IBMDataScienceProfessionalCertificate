@@ -1,7 +1,7 @@
 # COURSE 3: DATA SCIENCE METHODOLOGY
 
 
-![c1_what_is_methodology](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c1_what_is_methodology.png)
+![c1_what_is_methodology](../images/c1_what_is_methodology.png)
 
 > Reference (John Collins, IBM):
 https://www.ibmbigdatahub.com/blog/why-we-need-methodology-data-science 
@@ -56,7 +56,7 @@ The Data Science Methodology aims to answer 10 following questions:
 Data Science Methodology Flowchart: 
 * The data science methodology discussed in this course has been outlined by John Rollins, a seasoned and senior data scientist currently practising at IBM
 
-![c1_ds_methodology_flowchart](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c1_ds_methodology_flowchart.png)
+![c1_ds_methodology_flowchart](../images/c1_ds_methodology_flowchart.png)
 
 
 * Properties:
@@ -123,7 +123,7 @@ Data Science Methodology Flowchart:
 Look again at the flowchart:
 
 
-![c1_ds_methodology_flowchart](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c1_ds_methodology_flowchart.png)
+![c1_ds_methodology_flowchart](../images/c1_ds_methodology_flowchart.png)
 
 
 * Properties:
