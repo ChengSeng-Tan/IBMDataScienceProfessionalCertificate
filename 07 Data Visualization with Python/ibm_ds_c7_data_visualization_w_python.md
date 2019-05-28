@@ -59,15 +59,15 @@ Example:
 
 An ugly pie chart figure:
 
-![c7_fig_ugly_pig_meat_piechart](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c7_fig_ugly_pig_meat_piechart.png)
+![c7_fig_ugly_pig_meat_piechart](images/c7_fig_ugly_pig_meat_piechart.png)
 
 Now apply the recommendations of Dark Horse Analytics: Remove background, borders, redundant legends, 3D, text bolding, and reduce color
 
-![c7_fig_ugly_pig_meat_piechart_2](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c7_fig_ugly_pig_meat_piechart_2.png)
+![c7_fig_ugly_pig_meat_piechart_2](images/c7_fig_ugly_pig_meat_piechart_2.png)
 
 Another way to illustrate the result:
 
-![c7_fig_ugly_pig_meat_piechart_3](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c7_fig_ugly_pig_meat_piechart_3.png)
+![c7_fig_ugly_pig_meat_piechart_3](images/c7_fig_ugly_pig_meat_piechart_3.png)
 
 
 
@@ -126,7 +126,7 @@ plt.show()
 
 ```
 
-![c7_fig_matplotlib_example](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c7_fig_matplotlib_example.png)
+![c7_fig_matplotlib_example](images/c7_fig_matplotlib_example.png)
 
 Further reading: http://www.aosabook.org/en/matplotlib.html
 
@@ -148,9 +148,9 @@ df.plot(kind = "line")	# line plot
 df.plot(kind = "hist")	# histogram plot
 ```
 
-![c7_fig_pandas_plot_example](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c7_fig_pandas_plot_example.png)
+![c7_fig_pandas_plot_example](images/c7_fig_pandas_plot_example.png)
 
-![c7_fig_pandas_plot_example2](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c7_fig_pandas_plot_example2.png)
+![c7_fig_pandas_plot_example2](images/c7_fig_pandas_plot_example2.png)
 
 
 ### 1.4. Dataset on Immigration to Canada
@@ -190,7 +190,7 @@ plt.xlable('Years')
 plt.show()
 ```
 
-![c7_fig_can_immigration_plot](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c7_fig_can_immigration_plot.png)
+![c7_fig_can_immigration_plot](images/c7_fig_can_immigration_plot.png)
 
 ### LAB 1: Introduction to Matplotlib and Line Plots
 ### QUIZ 1: Introduction to Data Visualization Tools
@@ -225,7 +225,7 @@ plt.xlable('Years')
 plt.show()
 ```
 
-![c7_w2_immigration_trend](https://github.com/luuquangtrung/ibm_data_science/blob/master/images/c7_w2_immigration_trend.png)
+![c7_w2_immigration_trend](images/c7_w2_immigration_trend.png)
 
 
 ### 2.2. Histograms
